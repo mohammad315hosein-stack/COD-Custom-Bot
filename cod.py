@@ -13,7 +13,9 @@ from urllib.parse import quote
 # CONFIG
 # =========================================================
 
-BOT_TOKEN = "8772215651:AAFbjgd0vz1i3Ik94o82qNwfgzbeXGd5zHM"
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 ADMIN_ID = 8997986166
 
